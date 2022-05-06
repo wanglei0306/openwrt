@@ -2,7 +2,7 @@ include ./common-tp-link.mk
 
 
 define Device/tl-mr10u-v1
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   DEVICE_TITLE := TP-LINK TL-MR10U v1
   DEVICE_PACKAGES := kmod-usb-core kmod-usb2
   BOARDNAME := TL-MR10U
