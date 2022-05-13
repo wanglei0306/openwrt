@@ -428,7 +428,7 @@ endef
 TARGET_DEVICES += tl-wr740n-v3
 
 define Device/tl-wr740n-v4
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   DEVICE_TITLE := TP-LINK TL-WR740N/ND v4
   BOARDNAME := TL-WR741ND-v4
   DEVICE_PROFILE := TLWR740
@@ -469,7 +469,7 @@ endef
 TARGET_DEVICES += tl-wr741nd-v2
 
 define Device/tl-wr741nd-v4
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   DEVICE_TITLE := TP-LINK TL-WR741N/ND v4
   BOARDNAME := TL-WR741ND-v4
   DEVICE_PROFILE := TLWR741
